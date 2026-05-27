@@ -1,13 +1,10 @@
 {
-  "name": "channelkit-render",
+  "name": "channelkit-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx channelkit start --port 3000"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "dependencies": {
+    "channelkit": "latest"
+  }
 }
