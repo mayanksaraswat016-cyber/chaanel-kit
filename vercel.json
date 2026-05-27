@@ -1,7 +1,7 @@
-echo { > vercel.json
-echo   "functions": { >> vercel.json
-echo     "api/keepalive.js": { >> vercel.json
-echo       "maxDuration": 10 >> vercel.json
-echo     } >> vercel.json
-echo   } >> vercel.json
-echo } >> vercel.json
+{
+  "functions": {
+    "api/keepalive.js": {
+      "maxDuration": 10
+    }
+  }
+}
