@@ -1,19 +1,7 @@
-{
-  "functions": {
-    "api/keepalive.js": {
-      "maxDuration": 10
-    }
-  },
-  "builds": [
-    {
-      "src": "index.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "index.js"
-    }
-  ]
-}
+echo { > vercel.json
+echo   "functions": { >> vercel.json
+echo     "api/keepalive.js": { >> vercel.json
+echo       "maxDuration": 10 >> vercel.json
+echo     } >> vercel.json
+echo   } >> vercel.json
+echo } >> vercel.json
